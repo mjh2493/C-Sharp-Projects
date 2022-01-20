@@ -1,0 +1,6 @@
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\AccountingPage\AccountingPage\bin\Debug\AccountingPage.exe.config
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\AccountingPage\AccountingPage\bin\Debug\AccountingPage.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\AccountingPage\AccountingPage\bin\Debug\AccountingPage.pdb
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\AccountingPage\AccountingPage\obj\Debug\AccountingPage.csproj.CoreCompileInputs.cache
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\AccountingPage\AccountingPage\obj\Debug\AccountingPage.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\AccountingPage\AccountingPage\obj\Debug\AccountingPage.pdb
