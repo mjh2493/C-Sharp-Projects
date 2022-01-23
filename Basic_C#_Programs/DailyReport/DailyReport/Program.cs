@@ -20,7 +20,6 @@ namespace DailyReport
             string course = Console.ReadLine();
             Console.WriteLine("You are on the " + course + " course.");
 
-
             // says what page they are on
             Console.WriteLine("What page number?");
             string page = Console.ReadLine();
