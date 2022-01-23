@@ -23,7 +23,7 @@ namespace InsuranceApproval
 
 
             // calculates if they qualify and prints to console
-            bool result = (age_final >= 15 && DUI_answer == false && ticket_final <= 3);
+            bool result = (age_final > 15 && DUI_answer == false && ticket_final <= 3);
             if (result == true)
             {
                 Console.WriteLine("Congrats! You qualify for car insurance.");
