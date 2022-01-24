@@ -7,7 +7,7 @@ namespace ArraysAndLists
     {
         static void Main()
         {
-            // assigning my arrays
+            // assigning my arrays and lists
             string[] stringArray = { "Taco", "Burger", "Pizza", "Pasta", "Seafood", "Sushi" };
             int[] intArray = { 1, 2, 3, 4, 5 };
 
@@ -45,6 +45,7 @@ namespace ArraysAndLists
                 {
                     Console.WriteLine("You will order " + intArray[intNum] + " of the " + food + ".");
 
+                    // having the user now choose from a list and it will tell them what neighborhood to order from
                     Console.WriteLine("Now decide which neighborhood you will order the food from. Pick a number 0-2.");
                     int listNum = Convert.ToInt32(Console.ReadLine());
                     string neighorhood = stringList[listNum];
