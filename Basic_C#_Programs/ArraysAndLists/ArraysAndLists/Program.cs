@@ -11,6 +11,12 @@ namespace ArraysAndLists
             string[] stringArray = { "Taco", "Burger", "Pizza", "Pasta", "Seafood", "Sushi" };
             int[] intArray = { 1, 2, 3, 4, 5 };
 
+            List<string> stringList = new List<string>();
+
+            stringList.Add("Manhattan");
+            stringList.Add("Brooklyn");
+            stringList.Add("Queens");
+
 
             // letting the user choose from my string array
             Console.WriteLine("Pick a number 0-5 to decide what you will order tonight: ");
@@ -38,6 +44,19 @@ namespace ArraysAndLists
                 else
                 {
                     Console.WriteLine("You will order " + intArray[intNum] + " of the " + food + ".");
+
+                    Console.WriteLine("Now decide which neighborhood you will order the food from. Pick a number 0-2.");
+                    int listNum = Convert.ToInt32(Console.ReadLine());
+                    string neighorhood = stringList[listNum];
+
+                    if (listNum > 2)
+                    {
+                        Console.WriteLine("You picked a number outside of the options provided for you.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Order your food from " + neighorhood + ".");
+                    }
                 }
             }
 
