@@ -46,6 +46,38 @@ namespace BooleanComp
 
             while (!ifGuessed); // while loop runs while the answer is not sushi
 
+
+            Console.WriteLine("What is my favorite type of sushi?");
+            string sushi = Console.ReadLine();
+            bool sushiType = sushi == "Philadelphia Roll";
+
+            while (!sushiType)
+            {
+                switch(sushi)
+                {
+                    case "California Roll":
+                        Console.WriteLine("I do like this roll, but it is not my favorite.");
+                        Console.WriteLine("What is my favorite type of sushi?");
+                        sushi = Console.ReadLine();
+                        break;
+                    case "Tuna Roll":
+                        Console.WriteLine("I do not like a tuna roll.");
+                        Console.WriteLine("What is my favorite type of sushi?");
+                        sushi = Console.ReadLine();
+                        break;
+                    case "Philadelphia Roll":
+                        Console.WriteLine("Good guess! Philadelphia Roll is my favorite.");
+
+                        sushiType = true;
+                        break;
+                    default:
+                        Console.WriteLine("This is not correct.");
+                        Console.WriteLine("What is my favorite type of sushi?");
+                        sushi = Console.ReadLine();
+                        break;
+                }
+            }
+
             Console.Read();
 
         }

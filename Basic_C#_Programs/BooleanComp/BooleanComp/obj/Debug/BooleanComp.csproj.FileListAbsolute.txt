@@ -5,3 +5,10 @@ C:\Users\mjh24\source\repos\BooleanComp\BooleanComp\obj\Debug\BooleanComp.csproj
 C:\Users\mjh24\source\repos\BooleanComp\BooleanComp\obj\Debug\BooleanComp.csproj.CoreCompileInputs.cache
 C:\Users\mjh24\source\repos\BooleanComp\BooleanComp\obj\Debug\BooleanComp.exe
 C:\Users\mjh24\source\repos\BooleanComp\BooleanComp\obj\Debug\BooleanComp.pdb
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\BooleanComp\BooleanComp\bin\Debug\BooleanComp.exe.config
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\BooleanComp\BooleanComp\bin\Debug\BooleanComp.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\BooleanComp\BooleanComp\bin\Debug\BooleanComp.pdb
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\BooleanComp\BooleanComp\obj\Debug\BooleanComp.csproj.AssemblyReference.cache
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\BooleanComp\BooleanComp\obj\Debug\BooleanComp.csproj.CoreCompileInputs.cache
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\BooleanComp\BooleanComp\obj\Debug\BooleanComp.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\BooleanComp\BooleanComp\obj\Debug\BooleanComp.pdb
