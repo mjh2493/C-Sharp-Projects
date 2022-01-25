@@ -1,0 +1,7 @@
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StringsandIntegers\StringsandIntegers\bin\Debug\StringsandIntegers.exe.config
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StringsandIntegers\StringsandIntegers\bin\Debug\StringsandIntegers.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StringsandIntegers\StringsandIntegers\bin\Debug\StringsandIntegers.pdb
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StringsandIntegers\StringsandIntegers\obj\Debug\StringsandIntegers.csproj.CoreCompileInputs.cache
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StringsandIntegers\StringsandIntegers\obj\Debug\StringsandIntegers.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StringsandIntegers\StringsandIntegers\obj\Debug\StringsandIntegers.pdb
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\StringsandIntegers\StringsandIntegers\obj\Debug\StringsandIntegers.csproj.AssemblyReference.cache
