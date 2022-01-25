@@ -13,14 +13,27 @@ namespace ConsoleAssignment
             string[] stringArray = { "Taco", "Burger", "Pizza", "Pasta", "Seafood", "Sushi" };
 
             // input to add to end of each item in array
-            Console.WriteLine("Type in a random meal you would order from a restaurant: ");
+            Console.WriteLine("Type in a random meal you would order from a restaurant to combine it with the food from our list: ");
             string randomFood = Console.ReadLine();
 
             // loop to add random word to end of each item in the array
-            for (int i = 0; i <= stringArray.Length; i++)
+            for (int i = 0; i < stringArray.Length; i++)
             {
                 stringArray[i] += (" " + randomFood);
                 Console.WriteLine(stringArray[i]);
+            }
+
+            // part three- adds a <= to the loop iteration
+            string[] stringArray2 = { "Taco", "Burger", "Pizza", "Pasta", "Seafood", "Sushi" };
+
+            Console.WriteLine("Type in a random meal you would order from a restaurant to combine it with the food from our list: ");
+            string randomFood2 = Console.ReadLine();
+
+            // loop to add random word to end of each item in the array
+            for (int i = 0; i <= stringArray2.Length - 1; i++)
+            {
+                stringArray2[i] += (" " + randomFood2);
+                Console.WriteLine(stringArray2[i]);
             }
 
 
@@ -32,23 +45,28 @@ namespace ConsoleAssignment
             Console.WriteLine("Guess which meal we are thinking of. Each meal is only one word.");
             string foodGuess = Console.ReadLine();
             int indexNum = foodList.IndexOf(foodGuess);
+            bool foodFalse = false;
 
             // if user guess is in the list, it iterates through and gives the index number
-            if (foodList.Contains(foodGuess))
+
+            for (int i=0; i< foodList.Count; i++)
             {
-                foreach (string food in foodList)
+
+                if (foodList[i] == foodGuess)
                 {
-                    if (food == foodGuess)
-                    {
-                        Console.WriteLine(foodList.IndexOf(food));
-                    }
+                    foodFalse = true;
+                    i += foodList.Count;
                 }
             }
-            // if user guess is not on the list, they get an error message
+            if (foodFalse == true) {
+                Console.WriteLine(indexNum);
+            }
             else
             {
-                Console.WriteLine("You guessed wrong!");
+                Console.WriteLine("You did not guess correctly.");
             }
+
+          
 
             // part 5
             List<string> foodList2 = new List<string>() { "Taco", "Burger", "Pizza", "Taco", "Pasta", "Seafood", "Sushi" };
@@ -75,29 +93,33 @@ namespace ConsoleAssignment
             }
 
             // part6
+            // creates a list and an empty list
             List<string> foodList3 = new List<string>() { "Taco", "Burger", "Pizza", "Taco", "Pasta", "Seafood", "Sushi", "Burger" };
+            List<string> newFood = new List<string>();
+            // adds first item and prints a message that it has not been seen to start off the for loop
+            newFood.Add(foodList3[0]);
+            Console.WriteLine(foodList3[0] + " has not been seen before.");
 
-            // creates a list showing only the unique values
-            var unique = foodList3.Distinct();
-
-            Console.WriteLine("This is a list of unique values: ");
-            foreach (string food in unique)
+            for (int i= 1; i < foodList3.Count; i++)
             {
-                Console.WriteLine(food);
+                // looks for duplicates, if there are some it adds it to the list. if not, it adds in the item saying it is not a duplicate
+                bool foodDup = false;
+                foreach (string food in newFood)
+                {
+                    if (foodList3[i] == food)
+                    {
+                        Console.WriteLine(foodList3[i] + " has already been seen.");
+                        foodDup = true;
+                    }
+                }
+                if (foodDup == false)
+                {
+                    newFood.Add(foodList3[i]);
+                    Console.WriteLine(foodList3[i] + " has not been seen before.");
+                }
             }
 
-
-            // creates a list with just the duplicates
-            var duplicates = foodList3
-                    .GroupBy(i => i)
-                    .Where(g => g.Count() > 1)
-                    .Select(y => y.Key);
-
-            Console.WriteLine("From the list above, these are the duplicates: ");
-            foreach (string food in duplicates)
-            {
-                Console.WriteLine(food);
-            }
+           
 
             Console.ReadLine();
         }
