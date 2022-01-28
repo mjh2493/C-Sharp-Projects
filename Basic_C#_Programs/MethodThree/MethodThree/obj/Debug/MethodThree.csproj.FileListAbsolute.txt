@@ -1,0 +1,7 @@
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodThree\MethodThree\bin\Debug\MethodThree.exe.config
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodThree\MethodThree\bin\Debug\MethodThree.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodThree\MethodThree\bin\Debug\MethodThree.pdb
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodThree\MethodThree\obj\Debug\MethodThree.csproj.AssemblyReference.cache
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodThree\MethodThree\obj\Debug\MethodThree.csproj.CoreCompileInputs.cache
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodThree\MethodThree\obj\Debug\MethodThree.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodThree\MethodThree\obj\Debug\MethodThree.pdb
