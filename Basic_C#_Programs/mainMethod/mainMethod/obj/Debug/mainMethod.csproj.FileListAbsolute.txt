@@ -1,0 +1,7 @@
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\mainMethod\mainMethod\bin\Debug\mainMethod.exe.config
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\mainMethod\mainMethod\bin\Debug\mainMethod.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\mainMethod\mainMethod\bin\Debug\mainMethod.pdb
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\mainMethod\mainMethod\obj\Debug\mainMethod.csproj.AssemblyReference.cache
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\mainMethod\mainMethod\obj\Debug\mainMethod.csproj.CoreCompileInputs.cache
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\mainMethod\mainMethod\obj\Debug\mainMethod.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\mainMethod\mainMethod\obj\Debug\mainMethod.pdb
