@@ -10,34 +10,28 @@ namespace MethodTwo
     {
         static void Main(string[] args)
         {
-            // catches if the user inputs two numbers
-            try
-            {
+            // asks user to enter one or two numbers
+                var ourNum = new Math(); 
                 Console.WriteLine("Write the first number: ");
                 int num1 = Convert.ToInt32(Console.ReadLine());
 
                 Console.WriteLine("Write a second number if you want to: ");
-                int num2;
-                bool num2Result = Int32.TryParse(Console.ReadLine(), out num2);
+                string num2 = (Console.ReadLine());
 
-                var ourNum = new Math();
-
-                int answerOne = ourNum.add(num1, num2);
-                Console.WriteLine("Your answer is: " + answerOne);
-            }
-            // catches if user just enters one number
-            catch
-            {
-                var ourNum = new Math();
-                int num1;
-                bool num1Result = Int32.TryParse(Console.ReadLine(), out num1);
-                int answerOne = ourNum.add(num1, value2: 8);
-                Console.WriteLine("Your answer is: " + answerOne);
-            }
-            finally
-            {
-                Console.ReadLine();
-            }
+            // if the user doesn't enter the second number, it automatically adds value 2
+                if (string.IsNullOrEmpty(num2))
+                {
+                    int answerOne = ourNum.add(num1);
+                    Console.WriteLine("Your answer is: " + answerOne);
+                }
+                // if they do enter the second number, this converts it to int and then does the equation with the two equaled numbers
+                else
+                {
+                    int num2Final = Convert.ToInt32(num2);
+                    int answerTwo = ourNum.add(num1, num2Final);
+                    Console.WriteLine("Your answer is: " + answerTwo);
+                }
+            Console.ReadLine();
         }
     }
 
