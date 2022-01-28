@@ -1,0 +1,6 @@
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsAssign\MethodsAssign\bin\Debug\MethodsAssign.exe.config
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsAssign\MethodsAssign\bin\Debug\MethodsAssign.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsAssign\MethodsAssign\bin\Debug\MethodsAssign.pdb
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsAssign\MethodsAssign\obj\Debug\MethodsAssign.csproj.CoreCompileInputs.cache
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsAssign\MethodsAssign\obj\Debug\MethodsAssign.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsAssign\MethodsAssign\obj\Debug\MethodsAssign.pdb
