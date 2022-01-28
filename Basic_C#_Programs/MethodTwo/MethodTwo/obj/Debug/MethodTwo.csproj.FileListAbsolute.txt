@@ -1,0 +1,7 @@
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodTwo\MethodTwo\bin\Debug\MethodTwo.exe.config
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodTwo\MethodTwo\bin\Debug\MethodTwo.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodTwo\MethodTwo\bin\Debug\MethodTwo.pdb
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodTwo\MethodTwo\obj\Debug\MethodTwo.csproj.CoreCompileInputs.cache
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodTwo\MethodTwo\obj\Debug\MethodTwo.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodTwo\MethodTwo\obj\Debug\MethodTwo.pdb
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodTwo\MethodTwo\obj\Debug\MethodTwo.csproj.AssemblyReference.cache
