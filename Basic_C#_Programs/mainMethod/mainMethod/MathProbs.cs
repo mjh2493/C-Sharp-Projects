@@ -10,6 +10,7 @@ namespace mainMethod
     {
         static void Main(string[] args)
         {
+            // calculates out first equation/method
             Console.WriteLine("Enter a whole number: ");
             int numOne = Convert.ToInt32(Console.ReadLine());
 
@@ -18,6 +19,7 @@ namespace mainMethod
             int resultOne = ourNum.mathCalc(numOne, 5);
             Console.WriteLine("Answer 1: " + resultOne);
 
+            // calculates out second equation
             Console.WriteLine("Enter a decimal number: ");
             decimal numTwo = Convert.ToDecimal(Console.ReadLine());
 
@@ -25,6 +27,7 @@ namespace mainMethod
             int answerTwo = Convert.ToInt32(resultTwo);
             Console.WriteLine("Answer 2: " + answerTwo);
 
+            // exception handling for invalid number/string
             try
             {
                 Console.WriteLine("Enter a number: ");
@@ -46,17 +49,20 @@ namespace mainMethod
 
     public class mathEquations
     {
+        // takes in and returns int
         public int mathCalc(int data, int value)
         {
             return data + value;
         }
 
+        // takes in decimal and returns int
         public int mathCalc(decimal data, int value)
         {
             int data1 = Convert.ToInt32(data);
             return data1 + value;
         }
 
+        // takes in string and returns int
         public int mathCalc(string data, int value)
         {
                 int data1 = Int32.Parse(data);
