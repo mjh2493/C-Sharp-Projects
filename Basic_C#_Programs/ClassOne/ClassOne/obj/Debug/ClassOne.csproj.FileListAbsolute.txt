@@ -1,0 +1,7 @@
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\ClassOne\ClassOne\bin\Debug\ClassOne.exe.config
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\ClassOne\ClassOne\bin\Debug\ClassOne.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\ClassOne\ClassOne\bin\Debug\ClassOne.pdb
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\ClassOne\ClassOne\obj\Debug\ClassOne.csproj.AssemblyReference.cache
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\ClassOne\ClassOne\obj\Debug\ClassOne.csproj.CoreCompileInputs.cache
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\ClassOne\ClassOne\obj\Debug\ClassOne.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\ClassOne\ClassOne\obj\Debug\ClassOne.pdb
