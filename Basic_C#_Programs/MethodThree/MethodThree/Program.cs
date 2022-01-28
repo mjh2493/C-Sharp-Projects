@@ -19,7 +19,7 @@ namespace MethodThree
             Console.WriteLine("Please enter your second number: ");
             int num2 = Convert.ToInt32(Console.ReadLine());
 
-            math.add(num1, num2);
+            math.add(value1: num1, value2: num2);
             Console.ReadLine();
         }
     }
