@@ -16,10 +16,34 @@ namespace Abstract
             employee.LastName = "Student";
             employee.Id = 8495;
 
+            Employee employee2 = new Employee();
+            employee.FirstName = "Mallory";
+            employee.LastName = "Humphries";
+            employee.Id = 9304;
+
+            if (employee.Id == employee2.Id)
+            {
+                Console.WriteLine("These employees have the same ID!");
+            }
+            else
+            {
+                Console.WriteLine("These employees are not the same.");
+            }
+
             // calls method from Person class to show the name of the employee
             employee.SayName();
+            employee2.SayName();
 
             employee.Quit();
+
+            if (employee.Id == employee2.Id)
+            {
+                Console.WriteLine("These employees have the same ID!");
+            }
+            else
+            {
+                Console.WriteLine("These employees are not the same.");
+            }
             Console.ReadLine();
         }
     }
