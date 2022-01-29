@@ -21,6 +21,9 @@ namespace Abstract
             employee.LastName = "Humphries";
             employee.Id = 9304;
 
+            IQuittable quitter = new Employee();
+            quitter.Quit();
+
             if (employee.Id == employee2.Id)
             {
                 Console.WriteLine("These employees have the same ID!");
@@ -34,8 +37,7 @@ namespace Abstract
             employee.SayName();
             employee2.SayName();
 
-            employee.Quit();
-
+            // compares employee with employee 2 to see if their IDs are the same
             if (employee.Id == employee2.Id)
             {
                 Console.WriteLine("These employees have the same ID!");
