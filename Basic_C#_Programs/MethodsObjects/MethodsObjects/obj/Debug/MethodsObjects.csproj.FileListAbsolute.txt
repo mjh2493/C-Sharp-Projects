@@ -1,0 +1,7 @@
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsObjects\MethodsObjects\obj\Debug\MethodsObjects.csproj.AssemblyReference.cache
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsObjects\MethodsObjects\obj\Debug\MethodsObjects.csproj.CoreCompileInputs.cache
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsObjects\MethodsObjects\bin\Debug\MethodsObjects.exe.config
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsObjects\MethodsObjects\bin\Debug\MethodsObjects.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsObjects\MethodsObjects\bin\Debug\MethodsObjects.pdb
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsObjects\MethodsObjects\obj\Debug\MethodsObjects.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\MethodsObjects\MethodsObjects\obj\Debug\MethodsObjects.pdb
