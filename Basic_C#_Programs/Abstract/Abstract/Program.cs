@@ -14,9 +14,12 @@ namespace Abstract
             Employee employee = new Employee();
             employee.FirstName = "Sample";
             employee.LastName = "Student";
+            employee.Id = 8495;
 
             // calls method from Person class to show the name of the employee
             employee.SayName();
+
+            employee.Quit();
             Console.ReadLine();
         }
     }
