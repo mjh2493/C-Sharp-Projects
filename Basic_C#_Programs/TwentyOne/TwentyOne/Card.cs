@@ -22,13 +22,13 @@ namespace TwentyOne
 
     public enum Face
     {
-        Two, 
-        Three, 
+        Two,
+        Three,
         Four,
         Five,
-        Six, 
-        Seven, 
-        Eight, 
+        Six,
+        Seven,
+        Eight,
         Nine,
         Ten,
         Jack,
