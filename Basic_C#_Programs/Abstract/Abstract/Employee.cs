@@ -9,7 +9,7 @@ namespace Abstract
     class Employee : Person, IQuittable
     {
         public int Id { get; set; }
-        public override void SayName()
+        public void SayName()
         {
             Console.WriteLine("Name: " + FirstName + " " + LastName + "\n" + "Id: " + Id);
         }

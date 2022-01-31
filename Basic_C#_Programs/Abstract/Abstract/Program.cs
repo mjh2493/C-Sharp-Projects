@@ -22,20 +22,27 @@ namespace Abstract
             employees.Add(new Employee() { FirstName = "Joe", LastName = "Bond", Id = 8 });
             employees.Add(new Employee() { FirstName = "Caroline", LastName = "Grant", Id = 9 });
             employees.Add(new Employee() { FirstName = "Greyson", LastName = "Mallory", Id = 10 });
-            List<string> newList = new List<string>();
+            List<Employee> newList = new List<Employee>();
 
             // foreach loops for finding employee Joe
-            foreach (Employee employee in employees)
+            foreach (Employee employee1 in employees)
             {
-                if (employee.FirstName == "Joe")
+                if (employee1.FirstName == "Joe")
                 {
-                    newList.Add("Employee is: " + employee.FirstName + " " + employee.LastName + " and their ID is " + employee.Id);
+                    newList.Add(employee1);
                 }
             }
 
-            foreach (string employee1 in newList)
+            foreach (Employee employee1 in newList)
             {
                 Console.WriteLine(employee1);
+            }
+
+            List<Employee> findJoe = employees.Where(x => (x.FirstName == "Joe")).ToList();
+
+            foreach (Employee employeeJoe in findJoe)
+            {
+                Console.WriteLine("Employee is: " + employeeJoe.FirstName + " " + employeeJoe.LastName + " and their ID is " + employeeJoe.Id);
             }
 
             Console.WriteLine("Below shows all employees with ID that is greater than 5."); 
