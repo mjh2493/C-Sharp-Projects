@@ -103,6 +103,7 @@ namespace TwentyOne
                         else
                         {
                             player.isActivelyPlaying = false;
+                            return;
                         }
                     }
                 }

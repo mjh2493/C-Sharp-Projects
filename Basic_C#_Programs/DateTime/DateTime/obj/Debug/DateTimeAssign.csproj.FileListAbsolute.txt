@@ -1,0 +1,6 @@
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\DateTime\DateTime\bin\Debug\DateTime.exe.config
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\DateTime\DateTime\bin\Debug\DateTime.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\DateTime\DateTime\bin\Debug\DateTime.pdb
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\DateTime\DateTime\obj\Debug\DateTimeAssign.csproj.CoreCompileInputs.cache
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\DateTime\DateTime\obj\Debug\DateTime.exe
+C:\Users\mjh24\Documents\GitHub\C-Sharp-Projects\Basic_C#_Programs\DateTime\DateTime\obj\Debug\DateTime.pdb
